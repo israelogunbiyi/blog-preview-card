@@ -13,9 +13,13 @@ html{
 p, h1{
   margin: 0;
 }
-h1{
+.course-title{
   text-wrap: nowrap;
   font-weight: bold;
+  cursor: pointer;
+}
+.course-title:active{
+  color: hsl(47, 88%, 63%);
 }
 .text-preview{
   color: hsl(0, 0%, 42%);
@@ -81,9 +85,9 @@ body{
   font-size: 1.2rem;
 }
 @media (max-width: 768px) {
-  body{
+  /* body{
     padding: 20% 20px;
-  }
+  } */
 
   .center-block{
     width: 100%;
